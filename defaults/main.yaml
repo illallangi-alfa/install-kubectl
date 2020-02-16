@@ -1,5 +1,5 @@
 ---
-install_curl_packages:
+install_kubectl_packages:
   common: &common
     - "kubectl"
   debian_armv7l: *common

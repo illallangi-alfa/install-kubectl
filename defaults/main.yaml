@@ -1,6 +1,6 @@
 ---
 install_kubectl_packages:
-  common: &common
+  debian: &debian
     - "kubectl"
-  debian_armv7l: *common
-  redhat_x86_64: *common
+  debian_armv7l: *debian
+  debian_x86_64: *debian
